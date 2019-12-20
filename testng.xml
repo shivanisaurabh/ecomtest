@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yatrasite">
+
+   <test thread-count="5" name="HomePage">
+
+    <classes>
+
+      <class name="base.Baseclass"/>
+       <class name="pages.Loginpage"/>
+       <class name="test.LoginTest"/>
+       <class name="test.CatlogTest"/>
+       <class name="test.CheckoutTest"/>
+        <class name="test.PersonalinfoTest"/>
+ 
+     
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

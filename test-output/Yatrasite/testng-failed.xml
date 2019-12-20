@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Yatrasite]">
+  <test thread-count="5" name="HomePage(failed)">
+    <classes>
+      <class name="test.CheckoutTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="createloginforcheckout"/>
+        </methods>
+      </class> <!-- test.CheckoutTest -->
+      <class name="test.LoginTest">
+        <methods>
+          <include name="womancolth"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+      <class name="test.PersonalinfoTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="Resisterforwebsite"/>
+        </methods>
+      </class> <!-- test.PersonalinfoTest -->
+      <class name="test.CatlogTest">
+        <methods>
+          <include name="cartpage"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test.CatlogTest -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [Yatrasite] -->
